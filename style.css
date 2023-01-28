@@ -97,6 +97,9 @@ h3{
         flex-direction: column;
         height: auto;
     }
+    .card img{
+    width: 100%;
+    }
     p{
         margin: 5px;
     }
