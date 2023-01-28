@@ -10,22 +10,20 @@ body{
     height: 100vh;
 }
 .butt{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.butt a{
+    width: 130px;
+    height: 55px;
+    background-color: rgb(0, 200, 83);
     color: white;
-    padding: 0.6rem 1rem;
-    border: none;
-    border-radius: 5px;
-    margin: 0 auto;
-    background-color: rgb(1, 72, 226);
-   
+    font-weight: 500;
+    border: 1px solid white;
+    outline: none;
+    
+    border-radius: 3px;
+    padding: 1px 1rem;
+font-size: 19px;
 }
-.butt a:hover,.butt a:active{
+
+.butt:hover,.butt:active{
     background-color: rgb(2, 45, 138);
 }
 a{
