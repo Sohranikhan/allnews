@@ -12,7 +12,7 @@ let main = document.querySelector(".main");
        let card = document.createElement("div");
        card.classList.add('card')
        card.innerHTML=`
-       <img src="${element.src}" alt="">
+       <img src="${element.imgurl}" alt="">
        <div class="flex">
        <h1>${element.heading}</h1>
        <h3 class="para">${element.ptag}</h3>
